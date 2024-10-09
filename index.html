@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
+            rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+        <title>Всё для вашего отдыха</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Trillo Logo" class="logo" />
+                <form action="#" class="search">
+                    <input
+                        type="text"
+                        name=""
+                        id=""
+                        placeholder="Поиск отеля"
+                        class="search__input" />
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use
+                                xlink:href="img/sprite.svg#icon-magnifying-glass" />
+                        </svg>
+                    </button>
+                </form>
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmark" />
+                        </svg>
+                        <span class="user-nav__notification">7</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-chat" />
+                        </svg>
+                        <span class="user-nav__notification">13</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <span class="user-nav__user-name">Игорь</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-home" />
+                                </svg>
+                                <span>Отели</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use
+                                        xlink:href="img/sprite.svg#icon-aircraft-take-off" />
+                                </svg>
+                                <span>Перелет</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-key" />
+                                </svg>
+                                <span>Аренда авто</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-map" />
+                                </svg>
+                                <span>Туры</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">&copy; 2024</div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-1.jpg"
+                                alt="Photo of hotel 1"
+                                class="gallery__photo" />
+                        </figure>
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-2.jpg"
+                                alt="Photo of hotel 2"
+                                class="gallery__photo" />
+                        </figure>
+                        <figure class="gallery__item">
+                            <img
+                                src="img/hotel-3.jpg"
+                                alt="Photo of hotel 3"
+                                class="gallery__photo" />
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">Отель Лас Панамас</h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star" />
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star" />
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star" />
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star" />
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star" />
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use
+                                    xlink:href="img/sprite.svg#icon-location-pin" />
+                            </svg>
+                            <button class="btn-inline">
+                                Альбукерке, Португалия
+                            </button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 оценок</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Commodi, facilis laudantium
+                                iusto amet fuga blanditiis. Repudiandae
+                                explicabo id mollitia doloremque fuga accusamus
+                                corporis dignissimos aperiam reiciendis minima
+                                dolorem eveniet reprehenderit a labore quidem
+                                aliquid amet facilis, fugiat debitis suscipit
+                                quod!
+                            </p>
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Quis consequuntur alias
+                                eligendi id, nihil, veniam quam ab voluptatum
+                                amet neque sed soluta commodi aliquam laborum.
+                                Recusandae vitae fuga odio obcaecati.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">
+                                    Lorem ipsum dolor sit amet.
+                                </li>
+                                <li class="list__item">Lorem, ipsum dolor.</li>
+                                <li class="list__item">
+                                    Lorem ipsum dolor sit amet consectetur.
+                                </li>
+                                <li class="list__item">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing.
+                                </li>
+                                <li class="list__item">
+                                    Lorem ipsum dolor sit amet.
+                                </li>
+                                <li class="list__item">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit.
+                                </li>
+                                <li class="list__item">
+                                    Lorem ipsum dolor, sit amet consectetur
+                                    adipisicing elit. Sint.
+                                </li>
+                                <li class="list__item">
+                                    Lorem ipsum, dolor sit amet consectetur
+                                    adipisicing elit. Animi ea autem ratione.
+                                </li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Lorem, ipsum dolor sit amet.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img
+                                        src="img/user-4.jpg"
+                                        alt="Friend 1"
+                                        class="recommend__photo" />
+                                    <img
+                                        src="img/user-5.jpg"
+                                        alt="Friend 1"
+                                        class="recommend__photo" />
+                                    <img
+                                        src="img/user-6.jpg"
+                                        alt="Friend 1"
+                                        class="recommend__photo" />
+                                    <img
+                                        src="img/user-3.jpg"
+                                        alt="Friend 1"
+                                        class="recommend__photo" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Perferendis voluptatibus
+                                    distinctio earum! Dolore, eum.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img
+                                        src="img/user-1.jpg"
+                                        alt="User 1"
+                                        class="review__photo" />
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">
+                                            Олег Тиньков
+                                        </p>
+                                        <p class="review__user-date">
+                                            17 февраля, 2024
+                                        </p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Minus.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img
+                                        src="img/user-2.jpg"
+                                        alt="User 2"
+                                        class="review__photo" />
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">
+                                            Елена Иванова
+                                        </p>
+                                        <p class="review__user-date">
+                                            13 сентября, 2023
+                                        </p>
+                                    </div>
+                                    <div class="review__rating">6.5</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline">
+                                Show all
+                                <span>&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Хорошие новости. У нас осталось 4 комнаты, которые
+                            подходят вам!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Заказать сейчас</span>
+                            <span class="btn__invisible">
+                                Осталось 4 комнаты
+                            </span>
+                        </button>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
