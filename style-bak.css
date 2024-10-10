@@ -1,0 +1,83 @@
+/*Галерея*/
+/*display: flex; Устанавливает элемент как флекс-контейнер для управления расположением дочерних элементов*/
+/*width: 100%; Устанавливает ширину элемента равной 100% от родительского контейнера.*/
+/*display: block; Задает элементу блочный тип отображения, занимающий всю доступную ширину и начинающий новую строку.*/
+
+/*.gallery {*/
+/*    display: flex;*/
+/*}*/
+/*.gallery__photo {*/
+/*    width: 100%;*/
+/*    display: block;*/
+/*}*/
+
+/*Список*/
+/*list-style – настройка стиля маркеров списка.*/
+/*margin – внешний отступ элемента.*/
+/*padding – внутренний отступ элемента.*/
+/*border-top – верхняя граница элемента.*/
+/*border-bottom – нижняя граница элемента.*/
+/*display – определяет тип отображения элемента.*/
+/*flex-wrap – управляет переносом строк во flex-контейнере.*/
+/*flex – задает пропорции и гибкость элемента во flex-контейнере.*/
+/*margin-bottom – отступ снизу между элементами.*/
+/*content – добавляет контент в псевдоэлемент.*/
+/*height – высота элемента.*/
+/*width – ширина элемента.*/
+/*margin-right – отступ справа от элемента.*/
+
+/*.list {*/
+/*  list-style: none;*/
+/*  margin: 3rem 0;*/
+/*  padding: 3rem;*/
+/*  border-top: var(--line);*/
+/*  border-bottom: var(--line);*/
+/*  display: flex;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+/*.list__item {*/
+/*  flex: 0 0 50%;*/
+/*  margin-bottom: 0.7rem;*/
+/*}*/
+/*.list__item::before {*/
+/*  content: "";*/
+/*  display: inline-block;*/
+/*  height: 1rem;*/
+/*  width: 1rem;*/
+/*  margin-right: 0.5rem;*/
+/*}*/
+
+/*Рекомендуют*/
+/*font-size – устанавливает размер шрифта.*/
+/*color – задает цвет текста.*/
+/*display – определяет тип отображения элемента.*/
+/*align-items – выравнивает дочерние элементы по вертикали.*/
+/*margin-left – отступ слева элемента.*/
+/*box-sizing – определяет, как вычисляются размеры элемента.*/
+/*height – задает высоту элемента.*/
+/*width – задает ширину элемента.*/
+/*border-radius – скругляет углы элемента.*/
+/*border – определяет границу элемента.*/
+
+/*.recommend {*/
+/*  font-size: 1.3rem;*/
+/*  color: var(--color-grey-dark-3);*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+/*.recommend__count {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+/*.recommend__friends {*/
+/*  margin-left: auto;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*}*/
+/*.recommend__photo {*/
+/*  box-sizing: content-box;*/
+/*  height: 4rem;*/
+/*  width: 4rem;*/
+/*  border-radius: 50%;*/
+/*  border: 3px solid #fff;*/
+/*}*/
